@@ -1,0 +1,18 @@
+/* .folderStyle path {
+  fill: gray;
+} */
+.buttonRevForStyle {
+  background-color: white;
+  color: gray;
+  border-radius: 0;
+  padding: 10px;
+  margin-block: 15px;
+  box-shadow: 0px 0px 3px 0px #00000057;
+}
+.buttonRevForStyle:disabled {
+  background-color: #8080802b;
+}
+.buttonRevForStyle:hover {
+  background-color: #f7f7f7;
+  box-shadow: 0px 0px 3px 0px #0000009c;
+}

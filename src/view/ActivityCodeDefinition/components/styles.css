@@ -1,0 +1,20 @@
+.CarouselStyle {
+  padding: 10px 30px;
+}
+
+.CarouselStyle > div {
+  text-align: center;
+}
+
+.slick-dots li.slick-active button:before {
+  color: rgb(44, 193, 243);
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(44, 193, 243);
+}
+
+.iconColorChange g{
+  stroke: #0045ff;
+}

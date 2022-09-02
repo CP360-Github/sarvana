@@ -1,0 +1,21 @@
+
+#agentAvailabilitySection ul li {
+  margin-left: 20px;
+  float: left;
+  margin-top: 5px;
+}
+#agentAvailabilitySection ul li:first-child {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#agentAvailabilitySection ul li:first-child::marker {
+  font-size: 0px;
+}
+#agentAvailabilitySection ul li::marker,
+#agentAvailabilitySection ul li p {
+  font-size: 12px;
+}
+
+.datePicker-show-range button {
+  display: none;
+}

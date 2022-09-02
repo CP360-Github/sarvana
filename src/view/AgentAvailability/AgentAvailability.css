@@ -1,0 +1,40 @@
+#agentAvailabilitySection ul li {
+  margin-left: 20px;
+  float: left;
+  margin-top: 5px;
+}
+#agentAvailabilitySection ul li:first-child {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+#agentAvailabilitySection ul li:first-child::marker {
+  font-size: 0px;
+}
+#agentAvailabilitySection ul li::marker,
+#agentAvailabilitySection ul li p {
+  font-size: 12px;
+}
+
+.datePicker-show-range button {
+  display: none;
+}
+
+#AvailabilityCalendar .css-70qvj9 {
+  display: none;
+}
+.css-1160agi .fc .fc-event .fc-event-main {
+  background-color: transparent !important;
+}
+/* .available .fc-event-main {
+  background-color: skyblue !important;
+}
+.unavailable .fc-event-main {
+  background-color: lightgray !important;
+} */
+.css-1hv2cs2 {
+  display: none;
+}
+
+.fc .fc-highlight {
+  background-color: transparent !important;
+}
